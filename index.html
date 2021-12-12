@@ -1,0 +1,29 @@
+<!--Note: Heroku doesn't allow deployment of non-backend file extensions, i.e. .html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks Ordering System</title>
+    <script src="https://kit.fontawesome.com/381f1a30ca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSSstyle.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="wrapper">
+            <h1>African Stock Management System</h1>
+            <select name="clinicSorting" id="clinicSorting">
+                <option value="allClinics">All Clinics</option>
+                <option value="lowMedClinics">Low Medication Clinics</option>
+            </select>
+            <i class="fas fa-spinner fa-spin fas-off"></i>
+            <div class="clinics_cont" id="clinics"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
